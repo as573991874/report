@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T05:34:42.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="46QkzpJS_va6dObM0gYj" version="16.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T07:03:50.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="S2WTMHLfByzM93PrMwBi" version="16.4.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="860" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="urXomZocVGPRo9iEpME_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-24" target="dNxyNK7c78bLwvsdeMH5-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="urXomZocVGPRo9iEpME_-35" value="总和 &amp;lt;216ms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="urXomZocVGPRo9iEpME_-9">
+        <mxCell id="urXomZocVGPRo9iEpME_-35" value="总和 134~216ms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="urXomZocVGPRo9iEpME_-9">
           <mxGeometry x="0.6185" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -41,7 +41,7 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="客户端（30FPS）" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="120" width="2180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="urXomZocVGPRo9iEpME_-12" value="下一帧&lt;br&gt;33ms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="dNxyNK7c78bLwvsdeMH5-26" target="urXomZocVGPRo9iEpME_-10">
+        <mxCell id="urXomZocVGPRo9iEpME_-12" value="下一帧&lt;br&gt;0~33ms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="dNxyNK7c78bLwvsdeMH5-26" target="urXomZocVGPRo9iEpME_-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-26" value="UI 响应&lt;br&gt;放入战场命令队列" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
@@ -56,7 +56,7 @@
         <mxCell id="urXomZocVGPRo9iEpME_-11" value="UTP Tick&lt;br&gt;发送消息队列" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="550" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="urXomZocVGPRo9iEpME_-30" value="下一帧&lt;br&gt;33ms" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="urXomZocVGPRo9iEpME_-28" target="urXomZocVGPRo9iEpME_-29">
+        <mxCell id="urXomZocVGPRo9iEpME_-30" value="下一帧&lt;br&gt;0~33ms" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="urXomZocVGPRo9iEpME_-28" target="urXomZocVGPRo9iEpME_-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="urXomZocVGPRo9iEpME_-28" value="信号传输" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
@@ -88,7 +88,7 @@
         <mxCell id="urXomZocVGPRo9iEpME_-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="dNxyNK7c78bLwvsdeMH5-34" target="urXomZocVGPRo9iEpME_-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="urXomZocVGPRo9iEpME_-20" value="下一帧&lt;br&gt;16ms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="urXomZocVGPRo9iEpME_-19">
+        <mxCell id="urXomZocVGPRo9iEpME_-20" value="下一帧&lt;br&gt;0~16ms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="urXomZocVGPRo9iEpME_-19">
           <mxGeometry x="0.0222" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
